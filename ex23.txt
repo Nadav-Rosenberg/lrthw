@@ -1,0 +1,33 @@
+puts --> command to print everything in the double-quotes or single quoptes a head
+" --> double quotes --> define strings, operateon hashtags 
+' --> single quotes --> define string ignores # hashtag signes 
+$ --> prompt sign --> starts a command
+# --> hash --> either to ignore or together with { to add variable into a string. 
+{} --> braces --> to seperate a variable from a string --> being called either braces or curvy brackets 
++ plus 
+- minus
+/ slash
+* asterisk aste + risk 
+% percent (modulo, returns that reminder of dividing operator)
+< less than 
+> greater than 
+<= less than equale 
+>= greater than equale 
+= equale to asgin value into a variable. 
+_ underscore to link characters 
+print --> pronting the string but with out passing \n i.e you still stay at the same line
+""" --> three double quotes, enable you to print anything you want (not sure). 
+\t --> back slash like a tab 
+gets.chop --> get intput into a variable
+to_i and to_f --> to integer and to flaot 
+ARGV --> place holder for arguments you call with a file 
+> prompt --> sign that prompts you to do something 
+$stdin --> get the input and ignore ARGV
+open read close --> open file. read file. close file. (put DVD in player, read it to the RAM, take it out
+readline () --> read to RAM all the characters from the market and forward with the argument 
+truncate () --> earse and move to maker argument 
+wrtie --> write into a file 
+seek() put marker into the aegument 
+def --> method, function, 
+return --> output of a method 
++= add and reassign 
