@@ -1,5 +1,7 @@
 puts "Let's practice everything."
 puts 'you\'d need to know \'bout escapes with \\ that do\n newlines and \t tabs.'
+puts "you\'d need to know \'bout escapes with \\ that do\nnewlines and \ttabs."
+
 
 poem = <<END
 \tThe lovely world 
@@ -19,12 +21,12 @@ puts "This should be five: #{five}"
 
 def secret_formula(started)
   jelley_beans = started * 500
-  jars = jelly_beans / 1000
+  jars = jelley_beans / 1000
   crates = jars / 100
   return jelley_beans, jars, crates
 end
 
-start_point = 100
+start_point = 10000
 beans, jars, crates = secret_formula(start_point)
 
 puts "With a starting point of: #{start_point}"
